@@ -1,0 +1,20 @@
+{
+    "name": "muplugin/asse-filter-cache-headers",
+    "type": "wordpress-muplugin",
+    "description": "Setting Cache-Control headers",
+    "keywords": [
+        "wordpress",
+        "muplugin"
+    ],
+    "authors": [
+        {
+            "name": "Sebastian Döll",
+            "homepage": "http://www.axelspringer.de"
+        }
+    ],
+    "homepage": "https://as-stash.axelspringer.de/projects/WPMUP/repos/asse-filter-cache-headers",
+    "license": "proprietary",
+    "extra": {
+        "installer-name": "asse-filter-cache-headers"
+    }
+}
