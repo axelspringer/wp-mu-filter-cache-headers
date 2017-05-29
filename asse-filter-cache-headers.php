@@ -133,7 +133,7 @@ class Asse_Cache_Control {
             }
         }
 
-        return apply_filters( 'mup_cache_control_directives', $directives);
+        return apply_filters( 'asse_cache_control_directives', $directives);
     }
 
     public function get_cache_control_directive( $default ) {
