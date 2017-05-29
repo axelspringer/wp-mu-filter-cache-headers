@@ -100,7 +100,7 @@ class Asse_Cache_Control {
         $directives = null;
 
         if ( ! $this->should_be_cached() ) {
-            $directives = get_cache_control_directive();
+            $directives = $this->get_cache_control_directive();
         }
 
         if ( $wp_query->is_front_page() && ! is_paged() ) {
