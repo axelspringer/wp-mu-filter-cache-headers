@@ -12,7 +12,7 @@ class Asse_Cache_Control {
             'stale-if-error' => 3600 * 24 * 3
         ],
         'single'      => [
-            'max-age'  => 600,           //               10 min
+            'max-age'  => 900,           //               10 min
             's-maxage' => 60,            //                1 min
             'mmulti'   => 1,              // enabled,
             'public'   => true,
@@ -59,7 +59,7 @@ class Asse_Cache_Control {
             'stale-if-error' => 3600 * 24 * 3
         ],
         'feed'        => [
-            'max-age'  => 5400,          //       1 hours 30 min
+            'max-age'  => 60 * 30,          //       1 hours 30 min
             's-maxage' => 600,            //               10 min
             'stale-while-revalidate' => 3600 * 24,
             'stale-if-error' => 3600 * 24 * 3
