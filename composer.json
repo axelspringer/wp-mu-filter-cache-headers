@@ -1,5 +1,5 @@
 {
-    "name": "muplugin/asse-filter-cache-headers",
+    "name": "axelspringer/wp-mu-filter-cache-headers",
     "type": "wordpress-muplugin",
     "description": "Setting Cache-Control headers",
     "keywords": [
@@ -10,11 +10,15 @@
         {
             "name": "Sebastian Döll",
             "homepage": "http://www.axelspringer.de"
+        },
+        {
+            "name": "Mathias Witt",
+            "homepage": "http://www.axelspringer.de"
         }
     ],
-    "homepage": "https://as-stash.axelspringer.de/projects/WPMUP/repos/asse-filter-cache-headers",
-    "license": "proprietary",
+    "homepage": "https://github.com/axelspringer/wp-mu-filter-cache-headers",
+    "license": "Apache-2.0",
     "extra": {
-        "installer-name": "asse-filter-cache-headers"
+        "installer-name": "wp-mu-filter-cache-headers"
     }
 }
